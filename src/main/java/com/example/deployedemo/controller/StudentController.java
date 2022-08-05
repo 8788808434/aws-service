@@ -8,6 +8,7 @@ public class StudentController {
    @GetMapping("/get")
     public String get()
     {
+        System.out.println("hhhhh");
         return "hello aws";
     }
 }
